@@ -26,7 +26,7 @@ export default function Home() {
       /> 
 
       {/* HERO */}
-      <h1 className="text-[#c7b7a3] text-4xl font-bold mb-2">Hi, I'm Ila</h1>
+      <h1 className="text-[#c7b7a3] text-4xl font-bold mb-2">Hi, I am Ila</h1>
       <p className="text-[#c7b7a3] text-300 text-center max-w-md mb-12">    
         Informatic student at Nahdlatul Ulama University in Yogyakarta.
       </p>    
@@ -34,7 +34,7 @@ export default function Home() {
       {/* ABOUT */}
       <h2 className="text-[#c7b7a3] text-2xl font-semibold mb-2">About Me</h2>
       <p className="text-[#c7b7a3] text-300 text-center max-w-md mb-12">
-        Passionate about coding and problem-solving, I'm currently learning web development and exploring how technology can create better user experiences.
+        Passionate about coding and problem-solving, I am currently learning web development and exploring how technology can create better user experiences.
       </p>
 
       {/* SKILLS */}
