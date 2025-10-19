@@ -10,50 +10,54 @@ import {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-12">
+    <main className="text-[#561c24] min-h-screen bg-[#561c24] flex flex-col items-center justify-center px-6 py-12">
       
       {/* FOTO */}
       <Image
-        src="/profile.png"
+        src="/profile.jpg"    
         alt="Profile"
         width={120}
         height={120}
-        className="rounded-full mb-6 border-4 border-white shadow-lg"
-      />
+        className="rounded-full mb-6 border-2 border-[#c7b7a3]
+                  hover:border-transparent
+                  hover:shadow-[0_6px_16px_rgba(255,255,255,0.20)]
+                  hover:scale-110
+                  transition-all duration-300 ease-out shadow-lg"
+      /> 
 
       {/* HERO */}
-      <h1 className="text-4xl font-bold mb-2">Hi, Saya Ila 👋</h1>
-      <p className="text-gray-300 text-center max-w-md mb-12">
-        Web Developer & Law Student who builds modern web applications.
-      </p>
+      <h1 className="text-[#c7b7a3] text-4xl font-bold mb-2">Hi, I'm Ila</h1>
+      <p className="text-[#c7b7a3] text-300 text-center max-w-md mb-12">    
+        Informatic student at Nahdlatul Ulama University in Yogyakarta.
+      </p>    
 
       {/* ABOUT */}
-      <h2 className="text-2xl font-semibold mb-2">About Me</h2>
-      <p className="text-gray-400 text-center max-w-md mb-12">
-        Passionate in technology, UI/UX, and education. Currently learning Next.js and building LMS platform.
+      <h2 className="text-[#c7b7a3] text-2xl font-semibold mb-2">About Me</h2>
+      <p className="text-[#c7b7a3] text-300 text-center max-w-md mb-12">
+        Passionate about coding and problem-solving, I'm currently learning web development and exploring how technology can create better user experiences.
       </p>
 
       {/* SKILLS */}
-      <h2 className="text-2xl font-semibold mb-6">Skills</h2>
+      <h2 className="text-[#c7b7a3] text-2xl font-semibold mb-6">Skills</h2>
         <div className="flex gap-6 text-4xl mb-16">
-          <SiHtml5 size={40} color="#F97316" />
-          <SiCss3 size={40} color="#2563EB" />         
-          <SiJavascript size={40} color="#FACC15" />   
-          <SiReact size={40} color="#22D3EE" />        
-          <SiNextdotjs size={40} color="#FFFFFF" />
-          <SiTailwindcss size={40} color="#38BDF8" />  
+          <SiHtml5 size={40} color="#F97316" className="hover:scale-110 transition-all duration-300" />
+          <SiCss3 size={40} color="#2563EB" className="hover:scale-110 transition-all duration-300" />
+          <SiJavascript size={40} color="#FACC15" className="hover:scale-110 transition-all duration-300" />
+          <SiReact size={40} color="#22D3EE" className="hover:scale-110 transition-all duration-300" />
+          <SiNextdotjs size={40} color="#FFFFFF" className="hover:scale-110 transition-all duration-300" />
+          <SiTailwindcss size={40} color="#38BDF8" className="hover:scale-110 transition-all duration-300" />
         </div>
 
-
       {/* CONTACT */}
-      <h2 className="text-2xl font-semibold mb-3">Contact</h2>
-      <p className="text-gray-400 mb-4">Let’s build something together!</p>
+      <h2 className="text-[#c7b7a3] text-2xl font-semibold mb-3">Contact</h2>
+      <p className="text-[#c7b7a3] text-400 mb-4">Let’s build something together!</p>
       <a
-        href="mailto:example@email.com"
-        className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-medium hover:opacity-90 transition"
+        href="mailto:fadilailma550@gmail.com"
+        className="px-6 py-3 bg-gradient-to-b from-[#9C8F87]  to-[#E4DBD3] rounded-lg font-bold hover:scale-110 hover:shadow-[0_6px_16px_rgba(255,255,255,0.20)] transition-all duration-300"
       >
         Email Me
-      </a>
+      </a>  
+
     </main>
   );
 }
